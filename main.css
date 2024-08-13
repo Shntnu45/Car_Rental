@@ -1,0 +1,35 @@
+/* body{
+    background-color: antiquewhite;
+} */
+.logo{
+    filter: grayscale(100%);
+}
+.logo:hover{
+filter: grayscale(0%);
+}
+ul{
+    gap: 4rem;
+    
+}
+.headi1{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 50px;
+}
+.s1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.copy{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img{
+    transition: 0.3sec;
+}
+.img:hover{
+    transform: scale(1,1);
+}
